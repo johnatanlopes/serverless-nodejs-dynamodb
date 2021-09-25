@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    "source-map-support"
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "8.10"
+        }
+      }
+    ],
+    "@babel/preset-typescript"
+  ]
+}
